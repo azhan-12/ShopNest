@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Shop Nest</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- <link rel="stylesheet" href="shirt.css"> -->
+  <link rel="icon" href="img/Vmake1746673439497.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+  <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.6.0/css/fontawesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <!-- Linking SwiperJS css -->
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+
+ <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+
+             <!-- animation link -->
+
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+   
+
+</head>
+
+<body>
+  <!-- NAV BAR -->
+
+<header class="header">
+  <a href="#" class="logo">Zyra</a>
+
+  <!-- Hamburger Icon -->
+  <i class="fa-solid fa-bars" id="menu-icon"></i>
+
+  <!-- Navigation -->
+  <div class="center-nav">
+    <nav class="navbar">
+      <a href="index.html" class="active">Home</a>
+
+      <div class="dropdown">
+        <a href="#">Men's ▾</a>
+        <div class="dropdown-content">
+          <a href="shirt.html">Shirts</a>
+          <a href="tshirt.html">T-Shirts</a>
+          <a href="jeans.html">Jeans</a>
+          <a href="shoes.html">Shoes</a>
+          <a href="watch.html">Watches</a>
+        </div>
+      </div>
+
+      <div class="dropdown">
+        <a href="#">Women's ▾</a>
+        <div class="dropdown-content">
+          <a href="kurti.html">Kurta</a>
+          <a href="frock.html">Sandals</a>
+          <a href="perfume.html">Perfume</a>
+          <a href="wshoe.html">Shoes</a>
+          <a href="wwatch.html">Watch</a>
+        </div>
+      </div>
+
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </div>
+
+  <!-- Cart Icon -->
+   <!-- Cart Icon -->
+   <div class="cartt-icon">
+     <!-- <i class="ri-shopping-bag-line fa-cart-shopping "></i> -->
+   <i class="ri-shopping-bag-line cart"></i>
+     <span class="cart-item-count"></span>
+   </div>
+</header>
+
+
+
+  <!-- HERO SECTION  -->
+
+  
+
+
+
+<div class="carousel-container">
+        <div class="carousel-slide">
+            <div class="slide">
+                <div class="slide-content">
+                    <h2>Beautiful Nature</h2>
+                    <p>Explore the wonders of our natural world</p>
+                    <button class="cta-btn">Explore Now</button>
+                </div>
+                <div class="slide-overlay"></div>
+                <img src="/card/bn1.jpeg" alt="Nature">
+            </div>
+            <div class="slide">
+                <div class="slide-content">
+                    <h2>Urban Landscapes</h2>
+                    <p>Discover the beauty of city architecture</p>
+                    <button class="cta-btn">View Cities</button>
+                </div>
+                <div class="slide-overlay"></div>
+                <img src="card/bn2.jpeg" alt="City">
+            </div>
+            <div class="slide">
+                <div class="slide-content">
+                    <h2>Ocean Wonders</h2>
+                    <p>Dive into the depths of marine life</p>
+                    <button class="cta-btn">Learn More</button>
+                </div>
+                <div class="slide-overlay"></div>
+                <img src="card/bn3.jpeg" alt="Ocean">
+            </div>
+            <div class="slide">
+                <div class="slide-content">
+                    <h2>Mountain Adventures</h2>
+                    <p>Experience the thrill of high altitudes</p>
+                    <button class="cta-btn">Start Journey</button>
+                </div>
+                <div class="slide-overlay"></div>
+                <img src="card/bn4.jpeg" alt="Mountain">
+            </div>
+            <div class="slide">
+                <div class="slide-content">
+                    <h2>Mountain Adventures</h2>
+                    <p>Experience the thrill of high altitudes</p>
+                    <button class="cta-btn">Start Journey</button>
+                </div>
+                <div class="slide-overlay"></div>
+                <img src="card/bn5.jpeg" alt="Mountain">
+            </div>
+        </div>
+        
+        <button class="carousel-btn prev-btn">
+            <i class="fas fa-chevron-left"></i>
+        </button>
+        <button class="carousel-btn next-btn">
+            <i class="fas fa-chevron-right"></i>
+        </button>
+        
+        <div class="carousel-dots"></div>
+        
+        <div class="carousel-progress">
+            <div class="progress-bar"></div>
+        </div>
+    </div>
+
+
+  
+
+  <!-- Featured Product -->
+
+  <div class="categories">
+    <div class="small-container">
+      <div class="row">
+        <div class="col-3" data-aos="zoom-in" data-aos-delay="100">
+          <img src="img/category-1.jpg" alt="">
+        </div>
+        <div class="col-3" data-aos="zoom-in" data-aos-delay="200">
+          <img src="img/category-2.jpg" alt="">
+        </div>
+        <div class="col-3" data-aos="zoom-in" data-aos-delay="300">
+          <img src="img/category-3.jpg" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+  
+
+  <!-- Featured Product -->
+
+  <div class="small-container">
+    <h2 class="title">Featured Products</h2>
+    <div class="row">
+      <div class="col-4" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="100">
+        <img src="img/product-1.jpg" alt="">
+        <h4>Red Printed T-Shirt</h4>
+        <div class="rating">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star-o"></i>
+        </div>
+        <p>$50.00</p>
+      </div>
+      
+      <div class="col-4" data-aos="flip-left" data-aos-duration="1200" data-aos-delay="300">
+        <img src="https://rukminim2.flixcart.com/image/612/612/xif0q/t-shirt/n/w/h/s-ts85-vebnor-original-imah9hsfc4xxydfd.jpeg?q=70" alt="">
+        <h4>Men Round Neck Pink T-Shirt</h4>
+        <div class="rating">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star-o"></i>
+        </div>
+        <p>$50.00</p>
+      </div>
+      
+      <div class="col-4" data-aos="fade-up" data-aos-duration="1300" data-aos-delay="500">
+        <img src="img/product-3.jpg" alt="">
+        <h4>Red Printed T-Shirt</h4>
+        <div class="rating">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star-o"></i>
+        </div>
+        <p>$50.00</p>
+      </div>
+      
+      <div class="col-4" data-aos="fade-down" data-aos-duration="1500" data-aos-delay="700">
+        <img src="img/product-4.jpg" alt="">
+        <h4>Red Printed T-Shirt</h4>
+        <div class="rating">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star-o"></i>
+        </div>
+        <p>$50.00</p>
+      </div>
+      
+    </div>
+    <h2 class="title">Latest Products</h2>
+    <div class="row">
+      <div class="col-4" data-aos="fade-right" data-aos-duration="1000">
+        <img src="img/product-5.jpg" alt="">
+        <h4>Red Printed T-Shirt</h4>
+        <div class="rating">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star-o"></i>
+        </div>
+        <p>$50.00</p>
+      </div>
+    
+      <div class="col-4" data-aos="fade-left" data-aos-duration="1000">
+        <img src="img/product-6.jpg" alt="">
+        <h4>Red Printed T-Shirt</h4>
+        <div class="rating">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star-o"></i>
+        </div>
+        <p>$50.00</p>
+      </div>
+    
+      <div class="col-4" data-aos="flip-left" data-aos-duration="1000">
+        <img src="img/product-7.jpg" alt="">
+        <h4>Red Printed T-Shirt</h4>
+        <div class="rating">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star-o"></i>
+        </div>
+        <p>$50.00</p>
+      </div>
+    
+      <div class="col-4" data-aos="zoom-in" data-aos-duration="1000">
+        <img src="https://img.freepik.com/free-photo/closeup-shot-hand-watch-with-bstrap-reflective-surface_181624-58668.jpg?t=st=1746812157~exp=1746815757~hmac=2abd271df68f260bd7d7657b38ac7c15018be184173252c1481c848b89015c70&w=740" alt="">
+        <h4>Red Printed T-Shirt</h4>
+        <div class="rating">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star-o"></i>
+        </div>
+        <p>$50.00</p>
+      </div>
+    
+      <div class="col-4" data-aos="fade-up" data-aos-duration="1000">
+        <img src="img/product-9.jpg" alt="">
+        <h4>Red Printed T-Shirt</h4>
+        <div class="rating">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star-o"></i>
+        </div>
+        <p>$50.00</p>
+      </div>
+    
+      <div class="col-4" data-aos="flip-up" data-aos-duration="1000">
+        <img src="img/product-10.jpg" alt="">
+        <h4>Red Printed T-Shirt</h4>
+        <div class="rating">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star-o"></i>
+        </div>
+        <p>$50.00</p>
+      </div>
+    
+      <div class="col-4" data-aos="fade-down" data-aos-duration="1000">
+        <img src="img/product-11.jpg" alt="">
+        <h4>Red Printed T-Shirt</h4>
+        <div class="rating">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star-o"></i>
+        </div>
+        <p>$50.00</p>
+      </div>
+    
+      <div class="col-4" data-aos="zoom-out" data-aos-duration="1000">
+        <img src="img/product-12.jpg" alt="">
+        <h4>Red Printed T-Shirt</h4>
+        <div class="rating">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star-o"></i>
+        </div>
+        <p>$50.00</p>
+      </div>
+    </div>
+    
+  </div>
+
+
+  
+
+            <!-- offers  BAnner-->  
+
+            <section id="banner" class="my-5 py-5">
+              <div class="container1">
+                <h4>MID SEASON'S SALE</h4>
+                <h1>
+                  New Season. New Looks. <br>
+                  <span class="discount">UP TO 20% OFF</span>
+                </h1>
+                <button class="shop-now-btn text-uppercase">Shop Now</button>
+              </div>
+            </section>
+            
+
+  <!-- Review -->
+
+
+  <div class="container swiper">
+    <div class="slider-wrapper">
+      <div class="card-list swiper-wrapper">
+        <div class="card-item swiper-slide">
+          <img src="img/img-1.jpg" alt="User Image" class="user-image">
+          <h2 class="user-name">James Wilson</h2>
+          <p class="user-profession">Fantastic experience! Shopnest staff went above and beyond to help me find exactly what I needed.</p>
+          <div class="ratings">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+          </div>
+          <button class="message-button">Message</button>
+        </div>
+
+        <div class="card-item swiper-slide">
+          <img src="img/img-2.jpg" alt="User Image" class="user-image">
+          <h2 class="user-name">Sarah Johnson</h2>
+          <p class="user-profession">Absolutely loved the service at Shopnest! The team was attentive, knowledgeable, and made me feel like a valued customer from start to finish.</p>
+          <div class="ratings">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+          </div>
+          <button class="message-button">Message</button>
+        </div>
+
+        <div class="card-item swiper-slide">
+          <img src="img/img-3.jpg" alt="User Image" class="user-image">
+          <h2 class="user-name">Michael Brown</h2>
+          <p class="user-profession">Shopnest never disappoints. Every visit is smooth and stress-free thanks to their amazing customer support. Highly recommend!</p>
+           <div class="ratings">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+          </div>
+          <button class="message-button">Message</button>
+        </div>
+
+        <div class="card-item swiper-slide">
+          <img src="img/img-4.jpg" alt="User Image" class="user-image">
+          <h2 class="user-name">Emily Davis</h2>
+          <p class="user-profession">Super impressed with Shopnest’s dedication to customer satisfaction.They really listen and offer the best solutions—very refreshing</p>
+           <div class="ratings">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+          </div>
+          <button class="message-button">Message</button>
+        </div>
+
+        <div class="card-item swiper-slide">
+          <img src="img/img-5.jpg" alt="User Image" class="user-image">
+          <h2 class="user-name">Christopher Garcia</h2>
+          <p class="user-profession">A top-notch shopping experience! The team was courteous, informative, and genuinely passionate about helping.</p>
+           <div class="ratings">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <button class="message-button">Message</button>
+        </div>
+
+        <div class="card-item swiper-slide">
+          <img src="img/img-6.jpg" alt="User Image" class="user-image">
+          <h2 class="user-name">Richard Wilson</h2>
+          <p class="user-profession">Shopnest exceeded my expectations. Their attention to detail and care for their customers truly sets them apart.</p>
+           <div class="ratings">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <button class="message-button">Message</button>
+        </div>
+
+        <div class="card-item swiper-slide">
+          <img src="img/img-7.jpg" alt="User Image" class="user-image">
+          <h2 class="user-name">Karan Malik</h2>
+          <p class="user-profession">I felt completely taken care of at Shopnest. The staff is patient, efficient, and always ready with great advice.</p>
+           <div class="ratings">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <button class="message-button">Message</button>
+        </div>
+
+        <div class="card-item swiper-slide">
+          <img src="img/img-8.jpg" alt="User Image" class="user-image">
+          <h2 class="user-name">Vivek Nair</h2>
+          <p class="user-profession">From start to finish, Shopnest provided exceptional service. Their team is friendly, fast, and focused on making customers happy.</p>
+           <div class="ratings">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <button class="message-button">Message</button>
+        </div>
+      </div>
+
+      <div class="swiper-pagination"></div>
+      <div class="swiper-slide-button swiper-button-prev"></div>
+      <div class="swiper-slide-button swiper-button-next"></div>
+    </div>
+  </div>
+
+
+                <!-- Footer Sec -->
+
+  <footer class="footer">
+    <div class="container2">
+      <div class="row1">
+        <div class="footer-col" data-aos="fade-up" data-aos-delay="300">
+          <h4>Company</h4>
+          <ul>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">our services</a></li>
+            <li><a href="#">privacy policy</a></li>
+            <li><a href="#">affiliate program</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col" data-aos="fade-up" data-aos-delay="300">
+          <h4>get help</h4>
+          <ul>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">shipping</a></li>
+            <li><a href="#">returns</a></li>
+            <li><a href="#">order status</a></li>
+            <li><a href="#">payment options</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col" data-aos="fade-up" data-aos-delay="300">
+          <h4>online shop</h4>
+          <ul>
+            <li><a href="#">watch</a></li>
+            <li><a href="#">bag</a></li>
+            <li><a href="#">shoes</a></li>
+            <li><a href="#">dress</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col" data-aos="fade-up" data-aos-delay="300">
+          <h4>follow us</h4>
+          <div class="social-links">
+            <a href="#" class="facebook"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#" class="twitter"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#" class="instagram"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#" class="linkedin"><i class="fa-brands fa-linkedin-in"></i></a>
+          </div>
+          
+        </div>
+
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+     © 2025 <span>Zyra.</span> All Rights Reserved.
+    </div>
+  </footer>
+
+  <!-- Linking SwiperJS script -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <!-- Linking custom script -->
+  <script src="script.js"></script>
+
+
+<!-- Linking SwiperJS script -->
+
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+<script>
+  AOS.init({
+    once: false, // animation will trigger every time you scroll
+    duration: 1000, // you can set global animation duration too
+  });
+</script>
+
+<script>
+  const menuIcon = document.querySelector('#menu-icon');
+  const navbar = document.querySelector('.navbar');
+
+  menuIcon.addEventListener('click', () => {
+    navbar.classList.toggle('active');
+  });
+</script>
+
+<script>
+  window.addEventListener('scroll', () => {
+    const header = document.querySelector('.header');
+    if (window.scrollY > 0) {
+      header.classList.add('scrolled');
+    } else {
+      header.classList.remove('scrolled');
+    }
+  });
+</script>
+
+  
+<!-- <script src="script.js"></script> -->
+</body>
+
+</html>

@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+ <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+
+<link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="shirt.css">
+  <link rel="stylesheet" href="about.css">
+ 
+</head>
+<body>
+
+    <!-- NAV BAR -->
+
+<header class="header">
+  <a href="#" class="logo">Zyra</a>
+
+  <!-- Hamburger Icon -->
+  <i class="fa-solid fa-bars" id="menu-icon"></i>
+
+  <!-- Navigation -->
+  <div class="center-nav">
+    <nav class="navbar">
+      <a href="index.html" >Home</a>
+
+      <div class="dropdown">
+        <a href="#" class="active">Men's ▾</a>
+        <div class="dropdown-content">
+          <a href="shirt.html" >Shirts</a>
+          <a href="tshirt.html">T-Shirts</a>
+          <a href="jeans.html" >Jeans</a>
+          <a href="shoes.html" class="active">Shoes</a>
+          <a href="watch.html">Watches</a>
+        </div>
+      </div>
+
+      <div class="dropdown">
+        <a href="#">Women's ▾</a>
+        <div class="dropdown-content">
+          <a href="kurti.html">Kurta</a>
+          <a href="frock.html">Sandals</a>
+          <a href="perfume.html">Perfume</a>
+          <a href="wshoe.html">Shoes</a>
+          <a href="wwatch.html">Watch</a>
+        </div>
+      </div>
+
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </div>
+
+  <!-- Cart Icon -->
+   <div id="cart-icon">
+     <i class="ri-shopping-bag-line fa-cart-shopping "></i>
+     <span class="cart-item-count"></span>
+   </div>
+  
+</header>
+
+<div class="bg-img">
+    <p class="fontstyle1" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
+        ~~ Shoes ~~
+    </p>
+</div>
+
+<div class="cart">
+  <h2 class="cart-title">Your Card</h2>
+  <div class="cart-content">
+    <!-- <div class="cart-box">
+      <img src="/shirts/product1.jpg" class="cart-img">
+      <div class="cart-detail">
+        <h2 class="cart-product-title">Casual Black Polo</h2>
+        <span class="cart-price">$100</span>
+        <div class="cart-quantity">
+          <button id="decrement">-</button>
+          <span class="number">1</span>
+          <button id="increment">+</button>
+        </div>
+      </div>
+      <i class="ri-delete-bin-line cart-remove"></i>
+    </div> -->
+  </div>
+  <div class="total">
+    <div class="total-title">Total</div>
+    <div class="total-price">$0</div>
+  </div>
+  <button class="btn-buy">Buy Now</button>
+  <i class="ri-close-line" id="cart-close"></i>
+</div>
+
+  <section class="shop">
+    <h1 class="section-title">Shop Products</h1>
+     <div class="product-content" id="sproduct-list">
+      <!-- <div class="product-box">
+        <div class="img-box">
+          <img src="/shirts/product1.jpg" alt="">
+        </div>
+        <h2 class="product-title">Casual Black Polo</h2>
+        <div class="price-and-cart">
+          <span class="price">$100</span>
+       <i class="ri-shopping-bag-line add-cart"></i>
+        </div>
+      </div> -->
+    </div>
+  </section>
+
+
+                <!-- Footer Sec -->
+
+  <footer class="footer">
+    <div class="container2">
+      <div class="row1">
+        <div class="footer-col" data-aos="fade-up" data-aos-delay="300">
+          <h4>Company</h4>
+          <ul>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">our services</a></li>
+            <li><a href="#">privacy policy</a></li>
+            <li><a href="#">affiliate program</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col" data-aos="fade-up" data-aos-delay="300">
+          <h4>get help</h4>
+          <ul>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">shipping</a></li>
+            <li><a href="#">returns</a></li>
+            <li><a href="#">order status</a></li>
+            <li><a href="#">payment options</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col" data-aos="fade-up" data-aos-delay="300">
+          <h4>online shop</h4>
+          <ul>
+            <li><a href="#">watch</a></li>
+            <li><a href="#">bag</a></li>
+            <li><a href="#">shoes</a></li>
+            <li><a href="#">dress</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col" data-aos="fade-up" data-aos-delay="300">
+          <h4>follow us</h4>
+          <div class="social-links">
+            <a href="#" class="facebook"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#" class="twitter"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#" class="instagram"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#" class="linkedin"><i class="fa-brands fa-linkedin-in"></i></a>
+          </div>
+          
+        </div>
+
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+     © 2025 <span>Zyra.</span> All Rights Reserved.
+    </div>
+  </footer>
+  
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+<script>
+  AOS.init({
+    once: false, // animation will trigger every time you scroll
+    duration: 1000, // you can set global animation duration too
+  });
+</script>
+
+  <script src="cart.js"></script>
+  <script>
+  const menuIcon = document.querySelector('#menu-icon');
+  const navbar = document.querySelector('.navbar');
+
+  menuIcon.addEventListener('click', () => {
+    navbar.classList.toggle('active');
+  });
+</script>
+  <!-- <script src="products.json"></script> -->
+
+  <script>
+  window.addEventListener('scroll', () => {
+    const header = document.querySelector('.header');
+    if (window.scrollY > 0) {
+      header.classList.add('scrolled');
+    } else {
+      header.classList.remove('scrolled');
+    }
+  });
+</script>
+</body>
+</html>

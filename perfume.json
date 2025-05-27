@@ -1,0 +1,75 @@
+[
+  {
+    "title": "Eau de Parfum",
+    "price": 5,
+    "image": "https://rukminim2.flixcart.com/image/612/612/xif0q/perfume/2/m/1/50-dream-eau-de-parfum-secret-temptation-women-original-imah7eafbgyhcpvs.jpeg?q=70",
+    "rating": 3.1
+  },
+  {
+    "title": "Calabrian Blue",
+    "price": 10,
+    "image": "https://img0.junaroad.com/uiproducts/21482670/zoom_0-1723034075.jpg"
+    , "rating": 3.6
+  },
+  {
+    "title": "After Dark",
+    "price": 3,
+    "image": "https://img0.junaroad.com/uiproducts/17500992/zoom_0-1618404569.jpg"
+    , "rating": 3.1
+  },
+  {
+    "title": "cologne tattoo",
+    "price": 10,
+    "image": "https://img0.junaroad.com/uiproducts/17500994/zoom_0-1636812806.jpg"
+     , "rating": 3.1
+  },
+  {
+    "title": "Ammunition",
+    "price": 14,
+    "image": "https://img0.junaroad.com/uiproducts/17500990/zoom_0-1618404569.jpg"
+     , "rating": 3
+  },
+  
+  {
+    "title": "Ustraa",
+    "price": 5,
+    "image": "https://img0.junaroad.com/uiproducts/19487718/zoom_0-1678198226.jpg"
+     , "rating": 4
+  },
+  {
+    "title": "Wild Hook",
+    "price": 9,
+    "image": "https://img0.junaroad.com/uiproducts/21680225/zoom_0-1734601808.jpg"
+     , "rating": 4.1
+  },
+  {
+    "title": "Wild Hood",
+    "price": 5,
+    "image": "https://img0.junaroad.com/uiproducts/21677415/zoom_0-1734519146.jpg"
+     , "rating": 3.1
+  },
+  {
+    "title": "Saffron Hood",
+    "price": 18,
+    "image": "https://img0.junaroad.com/uiproducts/21483229/zoom_0-1723034075.jpg"
+     , "rating": 4.6
+  },
+  {
+    "title": "Blame Perfume",
+    "price": 7,
+    "image": "https://img0.junaroad.com/uiproducts/21680227/zoom_0-1734601808.jpg "
+     , "rating": 5
+  },
+  {
+    "title": "White Hood",
+    "price": 14,
+    "image": "https://img0.junaroad.com/uiproducts/21483236/zoom_0-1723034069.jpg"
+    , "rating": 4.5
+  },
+  {
+    "title": "Faun Walk",
+    "price": 12,
+    "image": "https://img0.junaroad.com/uiproducts/21371649/zoom_0-1720110649.jpg "
+    , "rating": 5
+  }
+]

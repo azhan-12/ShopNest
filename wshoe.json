@@ -1,0 +1,75 @@
+[
+  {
+    "title": "Velvet Step",
+    "price": 6,
+    "image": "https://img0.junaroad.com/uiproducts/20571929/zoom_0-1720077899.jpg",
+    "rating": 3.1
+  },
+  {
+    "title": "Crimson Walk",
+    "price": 4,
+    "image": "https://img0.junaroad.com/uiproducts/19720932/zoom_0-1683393243.jpg"
+    , "rating": 3.6
+  },
+  {
+    "title": "Blush Point",
+    "price": 5,
+    "image": "https://img0.junaroad.com/uiproducts/21170431/zoom_0-1715967829.jpg"
+    , "rating": 3.1
+  },
+  {
+    "title": "Twilight Sole",
+    "price": 8,
+    "image": "https://img0.junaroad.com/uiproducts/20246909/zoom_0-1693241250.jpg"
+     , "rating": 3.1
+  },
+  {
+    "title": "Satin Dash",
+    "price": 13,
+    "image": "https://img0.junaroad.com/uiproducts/20571923/zoom_0-1720077897.jpg"
+     , "rating": 3
+  },
+  
+  {
+    "title": "Floral Tread",
+    "price": 5,
+    "image": "https://img0.junaroad.com/uiproducts/19720931/zoom_0-1683393243.jpg"
+     , "rating": 4
+  },
+  {
+    "title": "Mint Loaf",
+    "price": 19,
+    "image": "https://img0.junaroad.com/uiproducts/20571921/zoom_0-1720077900.jpg"
+     , "rating": 4.1
+  },
+  {
+    "title": "Ocean Run",
+    "price": 5,
+    "image": "https://img0.junaroad.com/uiproducts/20486815/zoom_0-1699035021.jpg"
+     , "rating": 3.1
+  },
+  {
+    "title": "Amber Kick",
+    "price": 9,
+    "image": "https://img0.junaroad.com/uiproducts/20611047/zoom_0-1702822220.jpg"
+     , "rating": 4.6
+  },
+  {
+    "title": "Coral Sprint",
+    "price": 2,
+    "image": "https://img0.junaroad.com/uiproducts/21170429/zoom_0-1715967827.jpg"
+     , "rating": 5
+  },
+  {
+    "title": "Dusk Glide",
+    "price": 4,
+    "image": "https://img0.junaroad.com/uiproducts/21104546/zoom_0-1718804842.jpg"
+    , "rating": 4.5
+  },
+  {
+    "title": "Glitter Move",
+    "price": 15,
+    "image": "https://img0.junaroad.com/uiproducts/20538691/zoom_0-1700668500.jpg"
+    , "rating": 5
+  }
+]
