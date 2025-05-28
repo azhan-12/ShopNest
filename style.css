@@ -840,11 +840,10 @@ ul {
 /* Menu T-shirt */
 
 @media (max-width: 768px) {
- /* .header {
-            padding: 20px 40px;
-  } */
 
-
+.header {
+    padding: 20px 30px;
+}
   /* Wrap icons in a right-side container for control */
   #menu-icon {
 
@@ -899,8 +898,18 @@ ul {
     width: 100%;
     padding: 0.5rem 4%;
     display: none;
+    flex-direction: column;
+            background: #fff;
+    align-items: flex-start;
   }
+.navbar .dropdown {
+  width: 100%;
+}
 
+.dropdown a {
+  width: 100%; 
+  display: block;
+}
   .navbar.active {
     display: block;
   }
@@ -984,10 +993,15 @@ ul {
     justify-content: center;
     flex-wrap: wrap;
   }
-
+.about-content h2::after {
+    margin: 0 0 0 270px;
+}
 }
 
 @media(max-width:550px){
+  .about-content h2::after {
+    margin: 0 0 0 202px;
+}
   .container {
     min-height: 81vh;
   }
@@ -1000,3 +1014,4 @@ ul {
 
 
 }
+

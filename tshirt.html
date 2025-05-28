@@ -26,8 +26,7 @@
 <header class="header">
   <a href="#" class="logo">Zyra</a>
 
-  <!-- Hamburger Icon -->
-  <i class="fa-solid fa-bars" id="menu-icon"></i>
+ 
 
   <!-- Navigation -->
   <div class="center-nav">
@@ -61,10 +60,10 @@
     </nav>
   </div>
 
-  <!-- Cart Icon -->
-   <div id="cart-icon">
-     <i class="ri-shopping-bag-line fa-cart-shopping "></i>
-     <span class="cart-item-count"></span>
+  <div class="cartt-icon">
+    
+    <i class="ri-shopping-bag-line cart"></i>
+    <i class="fa-solid fa-bars" id="menu-icon"></i>
    </div>
   
 </header>
@@ -117,15 +116,7 @@
     </div>
   </section>
 
-  <script src="cart.js"></script>
-  <script>
-  const menuIcon = document.querySelector('#menu-icon');
-  const navbar = document.querySelector('.navbar');
-
-  menuIcon.addEventListener('click', () => {
-    navbar.classList.toggle('active');
-  });
-</script>
+ 
   <!-- <script src="products.json"></script> -->
 
                 <!-- Footer Sec -->
@@ -191,6 +182,16 @@
   });
 </script>
 
+ <script src="cart.js"></script>
+ <script src="script.js"></script>
+  <script>
+  const menuIcon = document.querySelector('#menu-icon');
+  const navbar = document.querySelector('.navbar');
+
+  menuIcon.addEventListener('click', () => {
+    navbar.classList.toggle('active');
+  });
+</script>
 <script>
   window.addEventListener('scroll', () => {
     const header = document.querySelector('.header');

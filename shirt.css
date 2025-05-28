@@ -47,8 +47,8 @@ body {
            width: 17px;
         height: 17px;
         font-size: 11px;
-        top: 18px;
-        right: 13px;
+                top: 23px;
+        right: 62px;
   }
 }
 .shop{
@@ -331,4 +331,11 @@ body {
   color: #f5c518;
   margin: 5px 0;
   font-size: 16px;
+}
+
+@media (max-width:425px) {
+      #cart-icon .cart-item-count {
+        top: 23px;
+        right: 62px;
+      }
 }
