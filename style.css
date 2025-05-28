@@ -1015,3 +1015,20 @@ ul {
 
 }
 
+@media (max-width: 500px) {
+    .about-content h2::after {
+        margin: 0 0 0 171px;
+    }
+}
+
+@media (max-width: 400px) {
+    .about-content h2::after {
+        margin: 0 0 0 130px;
+    }
+}
+
+@media (min-width: 360px) {
+    .about-content h2::after {
+        margin: 0 0 0 110px;
+    }
+  }

@@ -27,32 +27,31 @@
   <a href="#" class="logo">Zyra</a>
 
   <!-- Hamburger Icon -->
-  <i class="fa-solid fa-bars" id="menu-icon"></i>
-
+  
   <!-- Navigation -->
   <div class="center-nav">
     <nav class="navbar">
-      <a href="index.html" >Home</a>
+      <a href="index.html">Home</a>
 
       <div class="dropdown">
         <a href="#">Men's ▾</a>
         <div class="dropdown-content">
           <a href="shirt.html" >Shirts</a>
           <a href="tshirt.html">T-Shirts</a>
-          <a href="jeans.html" >Jeans</a>
-          <a href="shoes.html" >Shoes</a>
-          <a href="watch.html" >Watches</a>
+          <a href="jeans.html">Jeans</a>
+          <a href="shoes.html">Shoes</a>
+          <a href="watch.html">Watches</a>
         </div>
       </div>
 
-      <div class="dropdown">
+     <div class="dropdown">
         <a href="#" class="active">Women's ▾</a>
         <div class="dropdown-content">
           <a href="kurti.html" >Kurta</a>
           <a href="frock.html">Sandals</a>
-          <a href="perfume.html">Perfume</a>
+          <a href="perfume.html" >Perfume</a>
           <a href="wshoe.html">Shoes</a>
-          <a href="wwatch.html" class="active">Watch</a>
+          <a href="wwatch.html"  class="active">Watch</a>
         </div>
       </div>
 
@@ -60,18 +59,20 @@
       <a href="contact.html">Contact</a>
     </nav>
   </div>
-
-<div class="cartt-icon">
-    
+  
+  <!-- Cart Icon -->
+  <div id="cart-icon">
+    <i class="ri-shopping-bag-line fa-cart-shopping "></i>
     <i class="ri-shopping-bag-line cart"></i>
-    <i class="fa-solid fa-bars" id="menu-icon"></i>
-   </div>
+    <span class="cart-item-count"></span>
+  </div>
+  <i class="fa-solid fa-bars" id="menu-icon"></i>
   
 </header>
 
 <div class="bg-img">
     <p class="fontstyle1" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
-        ~~ Women Watches ~~
+        ~~ Watch ~~
     </p>
 </div>
 
@@ -191,16 +192,6 @@
   });
 </script>
 
-<script>
-  window.addEventListener('scroll', () => {
-    const header = document.querySelector('.header');
-    if (window.scrollY > 0) {
-      header.classList.add('scrolled');
-    } else {
-      header.classList.remove('scrolled');
-    }
-  });
-</script>
 <script>
   window.addEventListener('scroll', () => {
     const header = document.querySelector('.header');

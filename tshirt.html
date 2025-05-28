@@ -26,12 +26,12 @@
 <header class="header">
   <a href="#" class="logo">Zyra</a>
 
- 
-
+  <!-- Hamburger Icon -->
+  
   <!-- Navigation -->
   <div class="center-nav">
     <nav class="navbar">
-      <a href="index.html" >Home</a>
+      <a href="index.html">Home</a>
 
       <div class="dropdown">
         <a href="#" class="active">Men's ▾</a>
@@ -44,7 +44,7 @@
         </div>
       </div>
 
-      <div class="dropdown">
+     <div class="dropdown">
         <a href="#">Women's ▾</a>
         <div class="dropdown-content">
           <a href="kurti.html">Kurta</a>
@@ -59,12 +59,14 @@
       <a href="contact.html">Contact</a>
     </nav>
   </div>
-
-  <div class="cartt-icon">
-    
+  
+  <!-- Cart Icon -->
+  <div id="cart-icon">
+    <i class="ri-shopping-bag-line fa-cart-shopping "></i>
     <i class="ri-shopping-bag-line cart"></i>
-    <i class="fa-solid fa-bars" id="menu-icon"></i>
-   </div>
+    <span class="cart-item-count"></span>
+  </div>
+  <i class="fa-solid fa-bars" id="menu-icon"></i>
   
 </header>
 
@@ -103,7 +105,6 @@
     <h1 class="section-title">Shop Products</h1>
      <div class="product-content" id="tproduct-list">
       <!-- <div class="product-box">
-        
         <div class="img-box">
           <img src="/shirts/product1.jpg" alt="">
         </div>
@@ -116,8 +117,6 @@
     </div>
   </section>
 
- 
-  <!-- <script src="products.json"></script> -->
 
                 <!-- Footer Sec -->
 
@@ -174,7 +173,7 @@
     </div>
   </footer>
   
-  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
 <script>
   AOS.init({
     once: false, // animation will trigger every time you scroll
@@ -182,8 +181,8 @@
   });
 </script>
 
- <script src="cart.js"></script>
- <script src="script.js"></script>
+  <script src="cart.js"></script>
+  <script src="script.js"></script>
   <script>
   const menuIcon = document.querySelector('#menu-icon');
   const navbar = document.querySelector('.navbar');
@@ -192,6 +191,7 @@
     navbar.classList.toggle('active');
   });
 </script>
+
 <script>
   window.addEventListener('scroll', () => {
     const header = document.querySelector('.header');
@@ -202,5 +202,7 @@
     }
   });
 </script>
+  <!-- <script src="products.json"></script> -->
+
 </body>
 </html>
