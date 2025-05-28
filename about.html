@@ -4,6 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <title>Shop Nest</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="about.css">
   <!-- <link rel="stylesheet" href="shirt.css"> -->
@@ -38,22 +39,29 @@
 
 <body>
     
-<!-- NAV BAR -->
+ <!-- NAV BAR -->
+
 <header class="header">
   <a href="#" class="logo">Zyra</a>
+
+
+
+  <!-- Navigation -->
   <div class="center-nav">
     <nav class="navbar">
       <a href="index.html">Home</a>
+
       <div class="dropdown">
         <a href="#">Men's ▾</a>
         <div class="dropdown-content">
           <a href="shirt.html">Shirts</a>
-          <a href="t-shirt.html">T-Shirts</a>
-          <a href="#">Jeans</a>
-          <a href="#">Shoes</a>
-          <a href="#">Watches</a>
+          <a href="tshirt.html">T-Shirts</a>
+          <a href="jeans.html">Jeans</a>
+          <a href="shoes.html">Shoes</a>
+          <a href="watch.html">Watches</a>
         </div>
       </div>
+
       <div class="dropdown">
         <a href="#">Women's ▾</a>
         <div class="dropdown-content">
@@ -64,15 +72,16 @@
           <a href="wwatch.html">Watch</a>
         </div>
       </div>
+
       <a href="about.html" class="active">About</a>
       <a href="contact.html">Contact</a>
     </nav>
   </div>
-   <!-- Cart Icon -->
+
    <div class="cartt-icon">
-     <!-- <i class="ri-shopping-bag-line fa-cart-shopping "></i> -->
-   <i class="ri-shopping-bag-line cart"></i>
-     <span class="cart-item-count"></span>
+     
+     <i class="ri-shopping-bag-line cart"></i>
+     <i class="fa-solid fa-bars" id="menu-icon"></i>
    </div>
 </header>
 
